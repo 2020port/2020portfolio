@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=9"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=8"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=7"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	    <title>Portfolio</title>
+	    <link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+		<script src="js/jquery.bxslider.js"></script>
+
+
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+	</head>
+ <body >
+		<header>
+			<div class="work">
+				<span></span>
+				<div class="work_txt">
+					<p>WORK</p>
+					<span>Always deliver more than expected. </span>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="#">
+					<span id="menu1"></span>
+					<span id="menu2"></span>
+					<span id="menu3"></span>
+				</a>
+			</div>
+			<div class="nav inner">
+				<ul id="nav_txt">
+					<li><a href="#section1">Lacoste Website </a></li>
+					<li><a href="#section2">Lotte Responsive</a></li>
+					<li><a href="#section3">Lacoste Moblie</a></li>
+					<li><a href="#section4">Banila co Promotion</a></li>
+					<li><a href="#section5">Cook & Baker Website</a></li>
+					<li><a href="#section6">Bokgwon</a></li>
+					<li><a href="#section7">Seoul Cyber University Website</a></li>
+					<li><a href="#section8">Seoul Cyber University Mobile</a></li>
+					<li><a href="#section9">Humenia</a></li>
+				</ul>
+			</div>
+		</header>
+		<div>
+		  <span id="topBtn">Top</span>
+		</div>
+	    <!--Lacoste web-->
+		<div id="section1">
+			<div class="visual inner">
+				<div class="tit_box">
+					<img src="image/lacoste/lacoste_logo.png" alt="라코스테 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Lacoste</strong><br>Web Design</p>
+					<button type="button" onclick="location.href='html/lacoste/lacoste_web/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup laco_web_vis inner2" >
+					<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" >
+						<img id="lacoste_pc" src="image/lacoste/lacoste_pc.png" alt="라코스테 pc">
+						<img id="lacoste_phone" src="image/lacoste/lacoste_phone.png" alt="라코스테 로고">
+					</div>
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" data-aos="fade-left" data-aos-duration="1000" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/lacoste/main_page.jpg" alt="라코스테 메인">
+						<img src="image/lacoste/laco_mainmockup.jpg" data-aos="flip-right" data-aos-duration="1000" alt="라코스테 메인목업">
+					</div>
+					<div class="sub_page inner2"  >
+						<p data-aos="fade-up" data-aos-duration="1000">Sub Page</p>
+						<div data-aos="fade-right" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">Product Listing page</span>
+							<img src="image/lacoste/listing_page.jpg" alt="라코스테 제품리스트">
+						</div>
+						<div data-aos="fade-left" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">Product Detail page</span>
+							<img src="image/lacoste/Detail_page.jpg" alt="라코스테 제품상세페이지">
+						</div>
+						<img src="image/lacoste/laco_submockup.jpg" data-aos="flip-left" data-aos-duration="1000"  alt="라코스테 서브목업">
+						<button id="laco_button" type="button" onclick="location.href='html/lacoste/lacoste_web/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Lacoste web-->
+
+		<!--Lotte responsive-->
+		<div id="section2">
+			<div class="visual inner">
+				<div class="tit_box lotte">
+					<img src="image/lotte/lotte_logo.png" alt="롯데 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Lotte</strong><br>Responsive<br> Design</p>
+					<button id="lotte_button" type="button" onclick="location.href='html/Lotte/html/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup lotte_mockup inner2" >
+					<span><img src="image/lotte/lotte_biglogo.png" alt="롯데 로고"></span>
+					<div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" >
+						<img id="lotte_respon" src="image/lotte/main_mockup.png" alt="롯데 반응형">
+					</div>
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Web Page</p>
+						<img src="image/lotte/main_webpage.jpg" alt="롯데 메인" data-aos="fade-left" data-aos-duration="1000">
+						<p data-aos="fade-up" data-aos-duration="1000">Main Mobile Page</p>
+						<img src="image/lotte/mobile_main.jpg"  alt="롯데 모바일메인" data-aos="fade-right" data-aos-duration="1000">
+						<img src="image/lotte/main_mockup2.jpg" alt="롯데 반응형" data-aos="flip-right" data-aos-duration="500">
+					</div>
+					<div class="sub_page inner2"  >
+						<p data-aos="fade-up" data-aos-duration="1000">Sub Page</p>
+						<div>
+							<span data-aos="fade-up" data-aos-duration="1000">Pr News page</span>
+							<img src="image/lotte/sub_pr_news.jpg" alt="롯데 pr news" data-aos="fade-right" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">Pr Video page</span>
+							<img src="image/lotte/sub_pr_video.jpg" alt="롯데 pr video" data-aos="fade-left" data-aos-duration="1000">
+
+							<span data-aos="fade-up" data-aos-duration="1000">About Ceo page</span>
+							<img src="image/lotte/about_ceo.jpg" alt="롯데 about ceo" data-aos="fade-right" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">About Mission page</span>
+							<img src="image/lotte/about_mission.jpg" alt="롯데 about Mission" data-aos="fade-left" data-aos-duration="1000">
+
+							<span data-aos="fade-up" data-aos-duration="1000">Careers page</span>
+							<img src="image/lotte/careers.jpg" alt="롯데 careers" data-aos="fade-right" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">Cs center page</span>
+							<img src="image/lotte/cs_center.jpg" alt="롯데 cs center" data-aos="fade-left" data-aos-duration="1000">
+
+							<span data-aos="fade-up" data-aos-duration="1000">CSV page</span>
+							<img src="image/lotte/csv.jpg" alt="롯데 CSV" data-aos="fade-right" data-aos-duration="1000">
+							<span data-aos="fade-up" data-aos-duration="1000">Business page</span>
+							<img src="image/lotte/business.jpg" alt="롯데 Business" data-aos="fade-left" data-aos-duration="1000">
+						</div>
+						<ul class="lotte_sub_mockup">
+							<li><img src="image/lotte/lotte_sub_mockup1.jpg" alt="pc목업"></li>
+							<li><img src="image/lotte/lotte_sub_mockup2.jpg" alt="pc목업"></li>
+							<li><img src="image/lotte/lotte_sub_mockup3.jpg" alt="pc목업"></li>
+							<li><img src="image/lotte/lotte_sub_mockup4.jpg" alt="pc목업"></li>
+						</ul>
+						<button id="lotte_button2" type="button" onclick="location.href='html/Lotte/html/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Lotte responsive-->
+
+
+		<!--Lacoste mobile-->
+		<div id="section3">
+			<div class="visual inner">
+				<div class="tit_box">
+					<img src="image/lacoste/lacoste_logo.png" alt="라코스테 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Lacoste</strong><br>Mobile ver</p>
+					<button type="button" onclick="location.href='html/lacoste/lacoste_mobile/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup laco_mobile inner2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" data-aos="fade-left" data-aos-duration="1000" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/lacoste/mobile_main.jpg" alt="라코스테 모바일메인">
+						<img src="image/lacoste/mobile_mainmockup.jpg" data-aos="flip-right" data-aos-duration="1000" alt="라코스테 모바일목업">
+					</div>
+					<div class="sub_page inner2"  >
+						<p data-aos="fade-up" data-aos-duration="1000">Sub Page</p>
+						<span data-aos="fade-up" data-aos-duration="1000">Listing + Detail page</span>
+						<div class="laco_mosub" data-aos="fade-left" data-aos-duration="800">
+							<ul class="laco_mo_sub">
+								<li data-aos="fade-left" data-aos-duration="1000"><img src="image/lacoste/mobile_listing.jpg" alt="라코스테 모바일제품리스트페이지"></li>
+								<li data-aos="fade-left" data-aos-duration="1200"><img src="image/lacoste/mobile_detail.jpg" alt="라코스테 모바일제품상세페이지"></li>
+							</ul>
+							<ul class="phone_mockup">
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" ><img src="image/lacoste/mobile_phone1.png" alt="라코스테 모바일목업"></li>
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" ><img src="image/lacoste/mobile_phone2.png" alt="라코스테 모바일목업"></li>
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300" ><img src="image/lacoste/mobile_phone3.png" alt="라코스테 모바일목업"></li><br>
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1600" ><img src="image/lacoste/mobile_phone4.png" alt="라코스테 모바일목업"></li>
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900" ><img src="image/lacoste/mobile_phone5.png" alt="라코스테 모바일목업"></li>
+								<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2200" ><img src="image/lacoste/mobile_phone6.png" alt="라코스테 모바일목업"></li>
+							</ul>
+
+						</div>
+						<button id="laco_button" type="button" onclick="location.href='html/lacoste/lacoste_mobile/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Lacoste mobile-->
+
+		<!--Banila co promotion-->
+		<div id="section4">
+			<div class="visual inner">
+				<div class="tit_box banilaco">
+					<img src="image/banila/title_logo.png" alt="바닐라코 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Banila co</strong><br>Promotion<br> Design</p>
+					<button id="banila_button" type="button" onclick="location.href='html/banila_co/html/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup banilaco_vis inner2" >
+					<img src="image/banila/vis_mockup.png" alt="바닐라코 pc" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" data-aos="fade-left" data-aos-duration="1000" >
+						<p data-aos="fade-up" data-aos-duration="1000">Promotion Page</p>
+						<img src="image/banila/main_page.jpg" alt="바닐라코 프로모션">
+						<img src="image/banila/banila_mockup.jpg" data-aos="flip-right" data-aos-duration="1000" alt="바닐라코 프로모션목업">
+						<button id="banila_button2" type="button" onclick="location.href='html/banila_co/html/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Banila co promotion-->
+
+		<!--Cook&Baker web design-->
+		<div id="section5">
+			<div class="visual inner">
+				<div class="tit_box cookbaker">
+					<img src="image/cookandbaker/logo.png" alt="쿡앤베이커 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Cook&baker</strong><br>Web Design</p>
+					<button id="cook_button" type="button" onclick="location.href='html/cookandbaker/html/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup cookandbaker_vis inner2" >
+					<img src="image/cookandbaker/main_mockup.png" alt="쿡앤베이커 메인목업" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" data-aos="fade-left" data-aos-duration="1000" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/cookandbaker/main_page.jpg" alt="쿡앤베이커 메인페이지">
+						<button id="cook_button2" type="button" onclick="location.href='html/cookandbaker/html/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Cook&Baker web design-->
+
+		<!--Bokgwon app design-->
+		<div id="section6">		
+			<div class="visual inner">
+				<div class="tit_box bokgwon">
+					<img src="image/Bokgwon/logo.png" alt="복권위원회 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Bokgwon</strong><br>App Design</p>
+					<button id="bok_button" type="button" onclick="location.href='html/bokgwon/bokgwon_intro.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup bokgwon_vis inner2" >
+					<img src="image/Bokgwon/vis_mockup.jpg" alt="복권위원회 메인목업" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1000" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page bok_gwon inner2" >
+						<p data-aos="fade-up" data-aos-duration="1000">Intro page + Main Page + Sub page</p>
+						<ul>
+							<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700"><img src="image/Bokgwon/mockup_1.png" alt="복권위원회 인트로페이지"></li>
+							<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1300"><img src="image/Bokgwon/mockup_2.png" alt="복권위원회 메인페이지"></li>
+							<li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900"><img src="image/Bokgwon/mockup_3.png" alt="복권위원회 서브페이지"></li>
+						</ul>
+						<button id="bok_button2" type="button" onclick="location.href='html/bokgwon/bokgwon_intro.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Bokgwon app design-->
+
+		<!--SCU WEB design-->
+		<div id="section7">
+			<div class="visual inner">
+				<div class="tit_box scu">
+					<img src="image/scu/logo.png" alt="서울사이버대학 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Seoul cyber<br>University</strong><br>Web Design</p>
+					<button id="scu_button" type="button" onclick="location.href='html/SCU_web/html/index.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup scu_vis inner2" >
+					<img src="image/scu/web_mockup.png" alt="서울사이버 메인목업" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page bok_gwon inner2" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/scu/main_page.jpg" alt="서울사이버 웹메인페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+						<p data-aos="fade-up" data-aos-duration="1000">Sub Page</p>
+						<img src="image/scu/sub_page.jpg" alt="서울사이버 웹서브페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+						<div class="scu_sub_mockup">
+							<img src="image/scu/laptop_mockup.png" alt="서울사이버 웹서브페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+						</div>
+						<button id="scu_button2" type="button" onclick="location.href='html/SCU_web/html/index.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//SCU WEB design-->
+
+		<!--SCU mobile design-->
+		<div id="section8">
+			<div class="visual inner">
+				<div class="tit_box scu">
+					<img src="image/scu/logo.png" alt="서울사이버대학 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Seoul cyber<br>University</strong><br>Mobile Design</p>
+					<button id="scu_button" type="button" onclick="location.href='html/SCU_mobile/html/index.html' ">Discover more+</button>
+				</div>
+				<ul class="main_mockup scu_mobile_mockup inner2" >
+					<li><img src="image/scu/mobile_mockup1.png" alt="서울사이버 모바일목업" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700" ></li>
+					<li><img src="image/scu/mobile_mockup2.png" alt="서울사이버 모바일목업" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000" ></li>
+					<li><img src="image/scu/mobile_mockup3.png" alt="서울사이버 모바일목업" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1300" ></li>
+				</ul>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page scu_mobile_bg inner2" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/scu/main_mockup.png" alt="서울사이버 모바일메인페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+						<p data-aos="fade-up" data-aos-duration="1000">Sub Page</p>
+						<img src="image/scu/sub_mockup.png" alt="서울사이버 모바일서브페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+					</div>
+					<div class="main_page inner2">
+					    <button id="scu_button2" type="button" onclick="location.href='html/SCU_mobile/html/index.html' ">Discover more+</button>
+					</div>
+
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//SCU mobile design-->
+
+		<!--Humeina web design-->
+		<div id="section9">
+			<div class="visual inner">
+				<div class="tit_box humenia">
+					<img src="image/humenia/logo.png" alt="휴매니아 로고">
+					<p data-aos="fade-up" data-aos-duration="1000"><strong>Humenia</strong><br>Web Design</p>
+					<button id="hu_button" type="button" onclick="location.href='html/humenia/humenia.html' ">Discover more+</button>
+				</div>
+				<div class="main_mockup inner2" >
+					<img src="image/humenia/main_mockup.jpg" alt="휴매니아목업" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700" >
+				</div>
+			</div>
+			<article>
+				<!--section1-->
+				<div class="section1 inner">
+					<div class="main_page inner2" >
+						<p data-aos="fade-up" data-aos-duration="1000">Main Page</p>
+						<img src="image/humenia/main_page.jpg" alt="휴매니아 메인페이지" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+						<button id="hu_button2" type="button" onclick="location.href='html/humenia/humenia.html' ">Discover more+</button>
+					</div>
+				</div>
+				<!--//section1-->
+			</article>
+		</div>
+		<!--//Humeina web design-->
+
+	<script>
+	$(document).ready(function(){ 
+		//NAV 스크롤 했을때 변화 
+		$(window).scroll(function(){ 
+			var scroll = $(window).scrollTop(); 
+			if(scroll>300){ 
+			  $("header").css("background","#fefefe").css("opacity","0.8").css("height","50px");
+			  $(".work").css("display","none"); 
+			  $(".nav").css("margin-top","0px");
+			  $("#nav_txt li").css("padding-right","10px");
+			  $("#nav_txt li a").css("color","#5c5c5b").css("font-size","15px");
+			} 
+			else{ 
+			  $("header").css("opacity","1").css("background","").css("height","");
+			  $(".work").css("display","block"); 
+			  $(".nav").css("margin-top","");
+			  $("#nav_txt li").css("padding-right","");
+			  $("#nav_txt li a").css("color","").css("font-size","");
+
+			} 
+	    }) ;
+		// Header 스크롤했을때 변화
+	    var header = $('header');
+
+	    $(window).scroll(function(e){
+			if(header.offset().top >300){
+				if(!header.hasClass('shadow')){
+					header.addClass('shadow');
+				}
+			}else{
+				header.removeClass('shadow');
+			}
+		});
+		//롯데 목업 비엑스슬라이더
+		$('.lotte_sub_mockup').bxSlider({
+			auto: true,
+			pause: 2000,
+			pager: false,
+			speed : 1000,
+		});
+		var topEle = $('#topBtn');
+		var delay = 1000;
+		topEle.on('click', function() {
+		  $('html, body').stop().animate({scrollTop: 0}, delay);
+		});
+	});
+	</script>
+	<script>
+	  AOS.init();
+	</script>
+ </body>
+</html>
