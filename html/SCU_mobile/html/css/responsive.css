@@ -1,0 +1,293 @@
+/*공통*/
+@media screen and (max-width:800px){ 
+    .inner{width:100%;}
+}
+@media screen and (max-width:480px){ 
+    .bg1{height:250px;}
+}
+@media screen and (max-width:320px){ 
+    .fa_icon{font-size:20px;}
+}
+
+/*header*/
+@media screen and (max-width:385px){ 
+    .slicknav_menu{top:20px;}
+    .slicknav_btn{margin:0 0 0 15px}
+	.slicknav_menu .slicknav_icon-bar{width:27px;}
+	#mobile_menu ul.top_icon{right:0px; top:20px}
+	#mobile_menu h1{padding-top:8px;}
+	#mobile_menu h1 img{width:162px;}
+}
+
+
+/*login*/
+@media screen and (max-width:680px){
+	.login .login_inner > p a{padding-left:20px;}
+	.login .login_inner > span a{padding-right:20px;}
+	.login .login_inner form input[type="text"]{width:400px;}
+	.login .login_inner form .btn_login{width:400px;}
+}
+
+@media screen and (max-width:580px){
+	.login{height:320px;}
+	.login .login_inner{width:60%;}
+	.login .login_inner > p a{padding-left:1px;}
+	.login .login_inner > span a{padding-right:1px;}
+	.login .login_inner form input[type="text"]{width:300px;}
+	.login .login_inner form .btn_login{width:300px; }
+}
+
+@media screen and (max-width:480px){
+	.login .login_inner > p a{font-size:14px; padding-left:10px;}
+	.login .login_inner > span a{font-size:14px; padding-right:10px;}
+	.login .login_inner form input[type="text"]{ height:30px;}
+	.login .login_inner form .btn_login{ height:30px;}
+	.login .login_inner > ul li{width:15%;}
+}
+
+@media screen and (max-width:420px){
+	.login .login_inner > h5{font-size:25px; font-weight:600;}
+	.login .login_inner{width:75%;}
+	.login .login_inner > p a{padding-left:0px;}
+	.login .login_inner > span a{padding-right:0px;}
+}
+
+@media screen and (max-width:385px){
+	.login{height:250px;}
+	.login .login_inner{padding-top:0px;padding-right:10px;}
+	.login .login_inner form input[type="text"]{width:280px; height:28px;}
+	.login .login_inner form .btn_login{width:280px; height:28px;}
+	.login .login_inner > ul li a img{width:30px;}
+}
+@media screen and (max-width:320px){
+	.login{height:240px;}
+	.login .login_inner{padding-top:0px;padding-right:10px;}
+	.login .login_inner form input[type="text"]{width:240px; height:28px;}
+	.login .login_inner form .btn_login{width:240px; height:28px;}
+	.login .login_inner > ul li a img{width:30px;}
+}
+
+/*Search*/
+@media screen and (max-width:420px){
+	.sch input[type="sch_text"]{width:300px; }
+}
+@media screen and (max-width:320px){
+	.sch input[type="sch_text"]{width:200px; }
+}
+
+/*visual*/
+@media screen and (max-width:768px){ 
+    .visual{width:94%;}
+	.visual img{width:100%;}
+}
+@media screen and (max-width:480px){ 
+    .visual .bx-wrapper .bx-pager{display:none;}
+    .visual .bx-wrapper .bx-controls-direction a{display:block;}
+}
+
+
+/*SCU 주요서비스*/
+@media screen and (max-width:580px){ 
+    .scu_sch li p{font-size:15px;  }
+	.scu_sch li p br{display:block;}
+	.scu_sch li img{padding:8px; width:60px; height:60px;}
+
+}
+@media screen and (max-width:480px){ 
+    .scu_sch h2{ font-size:20px;}
+	
+}
+@media screen and (max-width:420px){ 
+    .scu_sch li{width:31%; margin:1%;  }
+	
+}
+
+/*bbs*/
+@media screen and (max-width:480px){ 
+    .bbs ul.tabs li {font-size:20px;}
+	.slick-slide { margin:0px 60px;}
+	.slick-slide img{width:80%;}
+	
+}
+@media screen and (max-width:385px){ 
+    .bbs ul.tabs li {font-size:18px;}
+	.slick-slide { margin:0px 30px;}
+	.slick-slide img{width:100%;}
+	
+}
+
+
+/*배너*/
+@media screen and (max-width:768px){ 
+    .banner .popup{ width:49%;}
+    .banner .mov{width:49%;}
+	#mov_br{display:block;}
+	.mov_txt{top:40%;  right:90px;}
+	
+}
+@media screen and (max-width:680px){ 
+	.mov_txt{top:35%;  right:62px;}
+	
+}
+@media screen and (max-width:580px){ 
+	.mov_txt{top:35%;  right:46px;}
+	.banner.inner h2{font-size:22px;}
+}
+@media screen and (max-width:480px){ 
+	.mov_txt{top:31%;  right:20px;}
+	.banner.inner h2{font-size:22px;}
+}
+@media screen and (max-width:420px){ 
+	.mov_txt{top:31%;  right:3px;}
+	.banner.inner h2{font-size:20px;}
+}
+@media screen and (max-width:385px){ 
+	.mov_txt{top:40%;  right:26px;}
+	#mov_txt2{display:block;}
+	#mov_txt1{display:none;}
+}
+@media screen and (max-width:320px){ 
+	.mov_txt{ right:17px;}
+}
+
+
+/*section4 신설학과소개*/
+@media screen and (max-width:680px){ 
+    .inner.se4_human > img{right:20px; top:-36px; width:40%;  }
+	.sec4tit.inner h6{font-size:25px;}
+	
+}
+@media screen and (max-width:580px){ 
+    .inner.se4_human > img{right:20px; top:-26px; width:40%;  }
+	.sec4tit.inner h6{font-size:24px;}
+	.se4_major span{display:none; }
+	.se4_major strong{font-size:21px;}
+	.se4_major p{font-size:14px;}
+}
+@media screen and (max-width:480px){ 
+    .inner.se4_human > img{ top:8px;  }
+	.sec4tit.inner h6{font-size:22px;}
+	.se4_major strong{font-size:19px;}
+	.sec4tit.inner h6{ margin-bottom:28px;}
+.se4_major p{font-size:16px; font-weight:600;  margin:10px auto; line-height:115%;}
+}
+@media screen and (max-width:420px){ 
+   .se4_major p{display:none;}
+   .inner.se4_human > img{ right:20px; top:-60px; width:50%; }
+}
+@media screen and (max-width:385px){ 
+   .inner.se4_human > img{  top:-44px;  }
+}
+@media screen and (max-width:320px){ 
+   .inner.se4_human > img{ right:17px; top:11px; width:40%; }
+}
+
+
+/*footer*/
+@media screen and (max-width:680px){
+	.footer .copy ul li{font-size:14px;}
+	.footer .copy ul li a{font-size:14px;}
+	.footer .copy p{font-size:13px;}
+	.footer .copy p > span{font-size:14px;}
+}
+
+@media screen and (max-width:580px){
+	.footer .logo{padding:12px 0;}
+	.footer .logo img{padding-left:20px; width:150px;}
+	.footer .logo a{right:20px; top:25px;font-size:15px;
+	width:63px; height:27px; line-height:27px;}
+	.footer .copy p > span{font-size:13px;}
+	.footer .copy ul li{padding-top:25px;}
+	.footer .copy p > span{padding-bottom:22px;}
+	#footer_email{display:none;}
+	#footer_copy{display:block;}
+}
+
+@media screen and (max-width:480px){
+	.footer .logo{padding:10px 0;}
+	.footer .logo img{padding-left:20px; width:130px;}
+	.footer .logo a{right:20px; top:20px;font-size:15px;
+	width:63px; height:25px; line-height:25px;}
+	.footer .copy ul li{font-size:12px;}
+	.footer .copy ul li a{font-size:12px;}
+}
+
+
+
+
+
+/******************sub 총장인사말***********************/
+
+/*sub_bg*/
+@media screen and (max-width:580px){
+	.bg1.subbg{ height:190px;}
+}
+@media screen and (max-width:385px){
+	.bg1.subbg{height:175px; }
+}
+@media screen and (max-width:360px){
+	.bg1.subbg{height:168px; }
+}
+@media screen and (max-width:320px){
+	.bg1.subbg{height:156px; }
+}
+
+/*sub_sch*/
+@media screen and (max-width:360px){
+	.sch.sub_sch {margin-top:10px;}
+}
+/*sub login*/
+@media screen and (max-width:680px){
+	.login.sub_login .login_inner form .btn_login{width:400px; height:40px; }
+}
+@media screen and (max-width:580px){
+	.login.sub_login .login_inner form .btn_login{width:300px; }
+}
+@media screen and (max-width:480px){
+	.login.sub_login .login_inner form .btn_login{ height:30px;}
+}
+@media screen and (max-width:385px){
+    .login.sub_login{height:240px;}
+    .login.sub_login .login_inner form input[type="text"]{width:240px; height:28px;}
+	.login.sub_login .login_inner form .btn_login{width:240px; height:28px;}
+}
+
+/*visual*/
+@media screen and (max-width:680px){
+	.home2{ width:400px; height:45px;}
+	.home2 li{padding-left:10px;}
+	.home2 li a{ width:100px; line-height:45px;  }
+}
+@media screen and (max-width:480px){
+	.home2{ width:300px; }
+
+}
+@media screen and (max-width:385px){
+	.home2{display:none;}
+
+}
+
+/*content*/
+@media screen and (max-width:580px){
+	.sec1_header{ border-bottom:0;}
+	.sec1_header h3{font-size:25px; font-weight:700; color:#012560;}
+	.se1_content{margin:40px auto;}
+	.se1_co1 li strong{font-size:17px; font-weight:900;}
+    .se1_co1 li p{font-size:14px; line-height:145%; }
+}
+@media screen and (max-width:480px){
+	.sec1_header h3{display:none;}
+	.home2{ width:300px; }
+	.sub_txt2{bottom:-45px; }
+	.se1_content{margin-top:-50px;}
+}
+@media screen and (max-width:385px){
+	.sec1_header h3{display:block; font-size:20px; padding-right:220px; }
+	.se1_content{margin-top:-20px;}
+
+}
+@media screen and (max-width:385px){
+	.sec1_header h3{ font-size:20px; padding-right:280px; }
+	.se1_co1 li strong{font-size:16px; }
+
+}
