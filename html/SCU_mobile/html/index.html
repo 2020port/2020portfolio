@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<title>모두의 대학 ㅣ 서울사이버대학</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+		
+
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="js/jquery.slicknav.js" type="text/JavaScript" ></script>
+		<script src="js/jquery.effects.core.js" type="text/javascript"></script>
+
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+		<script>
+		    $(document).ready(function(){
+			    $('#menu').slicknav({
+			        init: function(){
+					   $open = $('.slicknav_menu .slicknav_icon-bar');
+					},
+					open: function(){
+					    $open.css({
+						    background : "red !important",
+							width : "200px !important"
+						});
+					},
+					close: function(){
+					    $open.css({
+						    background : "#fff !important",
+							width : "100px !important"
+						});
+					}
+			   });
+
+			   // 대메뉴에서 특정 버튼에 마우스온할때
+				$("#menu > li > a").mouseover(function(){
+					$('#menu > li > ul').slideDown('fast');
+					$("#smenu_bar").slideDown();
+				});
+
+				// 메뉴에서 마우스가 빠져나가면 메뉴를 닫는다
+				$(".nav").mouseleave(function(){
+					$('#menu > li > ul').fadeOut('fast');
+					$('#smenu_bar').fadeOut('fast');
+				}); 
+			});
+	    </script>
+
+	</head>
+ <body class="bg1">
+    <!--header(s)-->
+    <header>
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<ul class="nav-list" id="menu">
+					<li class="in_menu01"><a href="html/sub.html">대학소개</a>
+						<ul>
+							<li><a href="html/sub.html">총장인사말</a></li>
+							<li><a href="html/sub.html">학교법인소개</a></li>	
+							<li><a href="html/sub.html">교육이념 및 목표</a></li>	
+							<li><a href="html/sub.html">SCU Vision 2022</a></li>
+							<li><a href="html/sub.html">발전기금</a></li>
+							<li><a href="html/sub.html">대학현황</a></li>
+							<li><a href="html/sub.html">Pride SCU</a></li>
+							<li><a href="html/sub.html">사이버홍보실</a></li>
+							<li><a href="html/sub.html">초빙채용</a></li>	
+						</ul>
+					</li>
+					<li class="in_menu02"><a href="html/sub.html">대학원</a>
+						<ul>
+							<li><a href="html/sub.html">클릭하시면<br> 대학원 홈페이지로<br> 이동합니다.</a></li>			
+						</ul>
+					</li>
+					<li class="in_menu03"><a href="html/sub.html">입학안내</a>
+						<ul>
+							<li><a href="html/sub.html">클릭하시면<br> 입학지원센터 홈페이지로<br> 이동합니다.</a></li>			
+						</ul>
+					</li>
+					<li class="in_menu04"><a href="html/sub.html">학과소개</a>
+						<ul>
+							<li><a href="html/sub.html">사회복지대학</a></li>
+							<li><a href="html/sub.html">심리·상담대학</a></li>	
+							<li><a href="html/sub.html">사회과학대학</a></li>	
+							<li><a href="html/sub.html">융합경영대학</a></li>
+							<li><a href="html/sub.html">미래융합인재학부</a></li>
+							<li><a href="html/sub.html">공과대학</a></li>
+							<li><a href="html/sub.html">디자인대학</a></li>
+							<li><a href="html/sub.html">문화예술대학</a></li>
+							<li><a href="html/sub.html">교양학부</a></li>
+						</ul>
+					</li>
+					<li class="in_menu05"><a href="html/sub.html">학사안내</a>
+						<ul>
+							<li><a href="html/sub.html">학생맞춤학기제 안내</a></li>
+							<li><a href="html/sub.html">학사일정</a></li>	
+							<li><a href="html/sub.html">학칙 및 시행세칙</a></li>	
+							<li><a href="html/sub.html">학사제도해설</a></li>
+							<li><a href="html/sub.html">장학안내</a></li>
+							<li><a href="html/sub.html">병무안내</a></li>
+							<li><a href="html/sub.html">대학원진학정보</a></li>
+							<li><a href="html/sub.html">자격증안내</a></li>
+							<li><a href="html/sub.html">e-대학요람</a></li>
+						</ul>
+					</li>
+					<li class="in_menu06"><a href="#">대학생활</a>
+						<ul>
+							<li><a href="html/sub.html">SCU뉴스</a></li>
+							<li><a href="html/sub.html">온라인강의체험</a></li>	
+							<li><a href="html/sub.html">교육인프라</a></li>	
+							<li><a href="html/sub.html">학생서비스</a></li>
+							<li><a href="html/sub.html">신·편입생 O.T</a></li>
+							<li><a href="html/sub.html">해외탐방</a></li>
+							<li><a href="html/sub.html">동아리소개</a></li>
+							<li><a href="html/sub.html">이벤트</a></li>
+							<li><a href="html/sub.html">e-Card 서비스</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="smenu_bar"></div>
+		</nav>
+		<!-- //nav -->
+		
+		<!-- mobile_menu -->
+		<div id="mobile_menu">
+		    <h1><a href="#"><img src="image/logo.png" alt=" 서울사이버대학"></a></h1>
+		    <ul class="top_icon">     
+				<li><a href="#" class="login_icon"><img src="image/login.png" alt="로그인"></a></li>
+				<li><a href="#" class="sch_icon"><img src="image/search.png" alt="검색"></a></li>
+		    </ul>
+		</div>
+		<!-- //mobile_menu -->
+		<!--login-->
+		<div class="login">
+			<div class="login_inner">
+				<h5>LOGIN</h5>
+				<form action="">
+					<input type="text" name="" placeholder="아이디">
+					<input type="text" name="" placeholder="비밀번호">
+					<button class="btn_login">로그인</button>
+				</form>
+				<p><a href="#">아이디/비밀번호찾기</a></p>
+				<span><a href="#">회원가입</a></span>
+				<ul>
+					<li><a href="#"><img src="image/na.png" alt="네이버"></a></li>
+					<li><a href="#"><img src="image/fa.png" alt="페북"></a></li>
+					<li><a href="#"><img src="image/ka.png" alt="카카오톡"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--//login-->
+		<!--sch-->
+		<div class="sch">
+			<form action="">
+				<input type="sch_text" name="" placeholder="검색어를 입력하세요.">
+				<button class="btn_sch"><img src="image/sch2.png" alt="검색"></button>
+			</form>
+		</div>
+		<!--//sch-->
+	</header>
+	<!--header(e)-->
+	<!--visual(s)-->
+	<div class="visual">
+	    <ul class="visslider">
+		    <li><img src="image/main/vis.jpg" alt=""></li>
+			<li><img src="image/main/vis.jpg" alt=""></li>
+		</ul>
+	</div>
+	<!--visual(e)-->
+	<!--content(s)-->
+    <div class="main_content">
+	    <!--SCU 주요 서비스-->
+		<div class="scu_sch inner">
+		   <h2>SCU 주요 서비스</h2>
+		   <ul>
+		       <li>
+			       <a href="#">
+				       <img src="image/main/icon1.png" alt="인터넷 강의체험">
+					   <p>인터넷<br>강의체험</p>
+				   </a>
+			   </li>
+			   <li>
+			       <a href="#">
+				       <img src="image/main/icon2.png" alt="학생맞춤 학기제">
+					   <p>학생맞춤<br>학기제</p>
+				   </a>
+			   </li>
+			   <li>
+			       <a href="#">
+				       <img src="image/main/icon3.png" alt="원격지원">
+					   <p>원격지원<br><br></p>
+				   </a>
+			   </li>
+			   <li>
+			       <a href="#">
+				       <img src="image/main/icon4.png" alt="입학안내 자료신청">
+					   <p>입학안내<br>자료신청</p>
+				   </a>
+			   </li>
+			   <li>
+			       <a href="#">
+				       <img src="image/main/icon5.png" alt="스마트 캠퍼스">
+					   <p>스마트<br>캠퍼스</p>
+				   </a>
+			   </li>
+		   </ul>
+		</div>
+		<!--//SCU 주요 서비스-->
+
+		<!--bbs-->
+		<!--bbs-->
+		<div class="bbs">
+		    <ul class="tabs">
+				<li class="active" rel="tab1">새소식</li>
+				<li rel="tab2">공지사항</li>
+				<li rel="tab3">SCU피플</li>
+			</ul>
+			<div class="tab_container">
+                <div id="tab1" class="tab_content">
+                    <section class="news slider">
+						<div>
+						   <a href="#"><img src="image/main/moscow_1.jpg" alt="모스크바"></a>
+						</div>
+						<div>
+						   <a href="#"><img src="image/main/human_2.jpg" alt="최병철"></a>
+						</div>
+						<div>
+						   <a href="#"><img src="image/main/human_1.jpg" alt="이수정"></a>
+						</div>
+						<div>
+						   <a href="#"><img src="image/main/moscow_1.jpg" alt="모스크바"></a>
+						</div>
+						<div>
+						   <a href="#"><img src="image/main/human_2.jpg" alt="최병철"></a>
+						</div>
+						<div>
+						   <a href="#"><img src="image/main/human_1.jpg" alt="이수정"></a>
+						</div>
+						
+					</section>
+				</div>
+				<div id="tab2" class="tab_content">
+				    <section class="notice slider">
+						<div>
+						  <a href="#"><img src="image/main/covid.jpg" alt="코로나"></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/smart_login.jpg" alt="스마트로그인"></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/system.jpg" alt="시스템"></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/covid.jpg" alt="코로나"></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/smart_login.jpg" alt="스마트로그인"></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/system.jpg" alt="시스템"></a>
+						</div>
+					</section>
+				</div>
+				<div id="tab3" class="tab_content">
+				    <section class="scu slider">
+						<div>
+						  <a href="#"><img src="image/main/student1.jpg" alt=""></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/student2.jpg" alt=""></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/student3.jpg" alt=""></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/student1.jpg" alt=""></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/student2.jpg" alt=""></a>
+						</div>
+						<div>
+						  <a href="#"><img src="image/main/student3.jpg" alt=""></a>
+						</div>
+					</section>
+				</div>
+            </div>
+		</div>
+		<!--bbs-->
+		<!--//bbs-->
+
+		<!--배너-->
+		<div class="banner inner">
+		    <!--팝업존-->
+			<div class="popup">
+			   <h2>팝업존</h2>
+			   <ul id="popup_page" class="page">
+			       <li><a data-slide-index="0" href="#"></a></li>
+				   <li><a data-slide-index="1"  href="#"></a></li>
+			   </ul>
+			   <ul class="popupslider">
+			       <li><a href="#"><img src="image/main/popup.jpg" alt=""></a></li>
+				   <li><a href="#"><img src="image/main/popup.jpg" alt=""></a></li>
+			   </ul>
+			</div>
+            <!--팝업존-->
+
+			<!--영상-->
+			<div class="mov">
+			   <h2>홍보 동영상</h2>
+			   <div class="mov_txt">
+			        <p id="mov_txt1">오늘, 서울사이버대학교는 <br>명실상부한 대한민국 대표 <br id="mov_br">사이버대학으로 자리잡았습니다</p>
+					<p id="mov_txt2">서울사이버대학교는<br>대표 사이버대학.</p>
+			   </div>
+				<a href=""><img src="image/main/video.jpg" alt=""></a>
+			</div>
+			<!--//영상-->
+		</div>
+		<!--//배너-->
+		<!--section4-->
+	    <div class="section4slider">
+		    <div class="sec4tit inner">
+			    <h6><a href="#"><span>2020</span>신설 학과소개</a></h6>
+		    </div>
+			<div class="inner se4_human">
+				<img src="image/main/human3.png" alt="음악치료학과">
+			</div>
+			<div class="sec4_bg">
+				<div class="inner se4_major">
+					<a href="#">
+						<strong>음악치료학과</strong><br>
+						<p>
+						   국내외 임상음악치료사 자격과정을<br>만족시키는 최고의 교육과정 운영<br>
+						</p>
+						<span>‘자신이 잘할수 있는’ 음악치료를 할 수 있는 개별화.</span>
+					</a>
+				</div>
+			</div>
+	    </div>
+	    <!--//section4-->
+	</div>
+	<!--content(e)-->
+	<!--footer-->
+	<div class="footer">
+		<div class="logo">
+			<img src="image/footer_logo.jpg" alt="로고">
+			<a href="#">PC버전</a>
+		</div>
+		<div class="copy">
+			<ul>
+				<li><a href="#">대학정보공시</a></li>
+				<li>ㅣ</li>
+				<li><a href="#">학교법인소개</a></li> 
+				<li>ㅣ</li>  
+				<li><a href="#">전화번호안내</a></li>
+				<li>ㅣ</li> 
+				<li><a href="#">찾아오시는길</a></li>
+				<li>ㅣ</li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li  id="footer_email">ㅣ</li>
+				<li id="footer_email"><a href="#">이메일무단수집거부</a></li>
+			</ul>
+			<p>(01133) 서울시 강북구 솔매로49길 60 (미아동) 서울사이버대학교ㅣ<br id="footer_copy">제2014-서울강북-0056ㅣ고유번호 : 211-82-13440<br>총장 : 이은주ㅣ 대표전화 : 02-944-5000ㅣ FAX : 02-980-2222
+			<span>COPYRIGHT ⓒ SEOUL CYBER UNIVERSITY. ALL RIGHTS RESERVED.</span></p>
+		</div>
+	</div>
+	<!--//footer-->
+
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<script type="text/JavaScript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+    
+	<script>
+	$(function(){
+		//로그인
+		$(".login_icon").click(function(){
+			if($(".login").css("display")=="block"){
+				$(".login").slideUp();
+			}else{
+				$(".login").slideDown();
+			}
+		});
+
+		//검색
+		$(".sch_icon").click(function(){
+			if($(".sch").css("display")=="block"){
+				$(".sch").slideUp();
+			}else{
+				$(".sch").slideDown();
+			}
+		});
+
+		//or
+		$(".login_icon").click(function(){
+				if($(".sch").css("display")=="block"){
+					$(".sch").slideUp();
+				}
+			});
+			$(".sch_icon").click(function(){
+				if($(".login").css("display")=="block"){
+					$(".login").slideUp();
+				}
+		});
+	});
+    </script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		//메인슬라이드
+		$('.visslider').bxSlider({
+			auto: true,
+			pager: true,
+			controls: true
+        });
+		//팝업존
+		$('.popupslider').bxSlider({
+			auto: true,
+			pagerCustom : '#popup_page',
+			controls: false,
+        });
+		//탭
+		$(".news").slick({
+			dots: true,
+			infinite: true,
+			centerMode: true,
+			slidesToShow: 3,
+			responsive: [
+				{
+				  breakpoint: 770,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 2
+				  }
+				},
+				{
+				  breakpoint: 490,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				  }
+				}
+			]
+       });
+	   $(".notice").slick({
+			dots: true,
+			infinite: true,
+			centerMode: true,
+			slidesToShow: 2,
+			responsive: [
+				{
+				  breakpoint: 490,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				  }
+				}
+			]
+       });
+	   $(".scu").slick({
+			dots: true,
+			infinite: true,
+			centerMode: true,
+			slidesToShow: 3,
+			responsive: [
+				{
+				  breakpoint: 690,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 2
+				  }
+				},
+				{
+				  breakpoint: 490,
+				  settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				  }
+				},
+			]
+       });
+
+	   //setPosition은 slick이 위치를 재계산할때마다 발생하는 이벤트
+
+		$(".tab_content").hide();
+		$(".tab_content:first").show();
+
+		$("ul.tabs li").click(function () {
+			$("ul.tabs li").removeClass("active").css("color", "#333");
+			$(this).addClass("active").css("color", "#10b166");
+			$(".tab_content").hide();
+			var activeTab = $(this).attr("rel");
+			$("#" + activeTab).show("200",function(){
+			    $(".notice").slick("setPosition",0);
+				$(".scu").slick("setPosition",0);
+			});
+		});
+
+		$(".news").slick("setPosition",0);
+
+	});
+
+	
+	</script>
+ </body>
+ </html>

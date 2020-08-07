@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=9"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=8"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=7"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"> 
+	   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+		<title>쿡앤베이커</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+         
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="js/slick.js" type="text/javascript"></script>
+		<script type="text/JavaScript" src="js/jquery.slicknav.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+
+		<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if lt IE 9]> <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+		<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script><![endif]-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('hgroup');
+		</script>
+		<![endif]-->
+
+		<script>
+		$(document).ready(function(){
+			   var $open;
+			$('#menu').slicknav({
+				init: function() {
+					$open = $('.slicknav_icon-bar');
+				},
+				afterOpen: function(){
+					$open.css("display","none");
+					$('.slicknav_icon-close').css("display","block");
+				},
+				afterClose: function(){
+					$open.css("display","block");
+					$('.slicknav_icon-close').css("display","none");
+				}
+			});
+
+        });
+	    </script>
+	</head>
+ <body>
+    <!--header(s)-->
+    <header>
+		<!-- nav -->
+		<nav class="nav">
+			<div class="inner">
+				<h1><a href="#"><img src="image/logo.png" alt="쿡앤베이커"></a></h1>
+
+				<ul class="nav-list" id="menu">
+					<li class="in_menu01"><a href="#">쿡앤베이커</a>
+						<ul>
+							<li><a href="#">비젼 및 사업방향</a></li>
+							<li><a href="#">오시는길</a></li>		
+						</ul>
+					</li>
+					<li class="in_menu02"><a href="#">프로그램안내</a>
+						<ul>
+							<li><a href="#">쿡앤베이커 교육</a></li>
+							<li><a href="#">창의아트 교육</a></li>	
+							<li><a href="#">자유학기제 교육</a></li>	
+							<li><a href="#">방과후 교육</a></li>		
+						</ul>
+					</li>
+					<li class="in_menu03"><a href="#">베이커리카페</a>
+						<ul>
+							<li><a href="#">베이커리카페 소개</a></li>
+							<li><a href="#">제품안내</a></li>	
+						</ul>
+					</li>
+					<li class="in_menu04"><a href="#">교육후기</a>
+						<ul>
+							<li><a href="#">진로 및 자유학년제 관련 수업</a></li>
+							<li><a href="#">초등학교, 유치원,어린이집 수업</a></li>	
+							<li><a href="#">방과후 돌봄 교실</a></li>	
+						</ul>
+					</li>
+					<li class="in_menu05"><a href="#">고객센터</a>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">캐이터링 예약</a></li>	
+							<li><a href="#">Q&A</a></li>	
+							<li><a href="#">협력업체</a></li>	
+						    <li><a href="#">포토갤러리</a></li>	
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="smenu_bar"></div>
+		</nav>
+		<!-- //nav -->
+
+		<!-- mobile_menu -->
+		<div id="mobile_menu"><h1><a href="#"><img src="image/logo.png" alt="쿡앤베이커"></a></h1></div>
+		<!-- //mobile_menu -->
+
+
+		<!--visual-->
+		<div class="main_visual">
+			<ul class="visual">
+				<li>
+				    <div class="inner vistxt">
+					   <h2>‘ 누구나 함께<br> 가치를<br> <span>더하다</span> ’</h2>
+					   <p>Coporate value<br>New, together, everyone<br>It is brand that can be enjoyed</p>
+					</div>
+					<img src="image/vis.jpg" alt="vis" class="vis">
+				</li>
+				<li>
+				    <div class="inner vistxt2">
+					   <h2>‘ 함께 꿈을 향해 <br>힘차게<br> <span>달리다</span> ’ </h2>
+					   <p>Coporate value<br>New, together, everyone<br>It is brand that can be enjoyed</p>
+					</div>
+					<img src="image/vis2.jpg" alt="vis" class="vis">
+				</li>
+		    </ul>
+		</div>
+		<!--//visual-->
+	</header>
+	<!--header(e)-->
+    <article>
+	    <!--section1-->
+		<div class="section1">
+		    <div class="inner">
+			    <div class="program">
+				    <div class="Ptxt">
+						<div>
+						   <h3>주요 프로그램</h3>
+						</div>
+						<p>쿡앤베이커의 주요 프로그램 안내입니다.</p>
+					</div>
+					<ul class="picon">
+					    <li>
+						    <a href="#">
+								<p>쇼콜라반</p>
+								<img src="image/sec1_icon1.jpg" alt="쇼콜라반">
+							</a>
+						</li>
+						<li>
+						    <a href="#">
+								<p>목장체험</p>
+								<img src="image/sec1_icon2.jpg" alt="목장체험">
+							</a>
+						</li>
+						<li>
+						    <a href="#">
+								<p>농장체험</p>
+								<img src="image/sec1_icon3.jpg" alt="농장체험">
+							</a>
+						</li>
+						<li>
+						    <a href="#">
+								<p>치즈만들기</p>
+								<img src="image/sec1_icon4.jpg" alt="치즈만들기">
+							</a>
+						</li>
+						<li>
+						    <a href="#">
+								<p>기차여행</p>
+								<img src="image/sec1_icon5.jpg" alt="기차여행">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--//section1-->
+		<!--section2-->
+		<div class="section2">
+			<div class="education inner">
+				<div class="educationtxt">
+					<h4>쿡앤베이커 교육안내</h4>
+					<p>쿡앤베이커의 교육 안내입니다.</p>
+				</div>
+				<ul class="educationicon">
+					<li>
+					   <a href="#">
+						   <p>자유학기제</p>
+						   <img src="image/sec2_icon1.png">
+					   </a>
+					</li>
+					<li>
+					    <a href="#">
+						   <p>쿡앤베이커<br>체험교육</p>
+						   <img src="image/sec2_icon2.png">
+					   </a>
+					</li>
+					<li>
+					    <a href="#">
+						   <p>방과후&nbsp;&nbsp;</p>
+						   <img src="image/sec2_icon3.png">
+					   </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--//section2-->
+		<!--section3-->
+		<div class="section3">
+		    <div class="inner sec3">
+			    <div class="educationtxt sectxt3">
+					<h4>쿡앤베이커 소식지</h4>
+					<p>쿡앤베이커의 최신 소식을 알려드립니다.</p>
+				</div>
+			    <div class="newspho">
+				    <img src="image/sec3_co.jpg" alt="사진">
+				</div>
+				<div class="newstxt">
+				    <div  id="newsbg1">
+					    <p>직접 체험하는 비닐하우스에서...</p>
+						<span>새싹이 나오는 계절 봄이 다가오고 있습니다. <br>직접 가꾸어 보세요...</span>
+					</div>
+					<div id="newsbg2">
+			            <a href="#">더보기+</a>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!--//section3-->
+	</article>
+	<!--footer-->
+	<footer>
+	    <div class="inner">
+		    <ul class="foot1">
+			    <li><a href="#">회사소개</a></li>
+				<li>l</li>
+				<li><a href="#">이용약관</a></li>
+				<li>l</li>
+				<li><a href="#">개인정보취급방침</a></li>
+				<li>l</li>
+				<li><a href="#">이메일무단수집거부</a></li>
+			</ul>
+			<div class="foot2">
+			    <p>강원도 강릉시 경강로 2267번길 29(포남동) TEL: 033)652-3315 HP : 010 -8611-5286 E-mail:jdreamart@naver.com</p>
+				<span>Copyright ⓒ Cook&Baker. Ltd. All Rights Reserved. </span>
+			</div>
+		</div>
+	</footer>
+	<!--//footer-->
+
+
+
+
+
+
+
+    <script src="js/jquery.effects.core.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			// 대메뉴에서 특정 버튼에 마우스온할때
+			$("#menu > li > a").mouseover(function(){
+				$('#menu > li > ul').slideDown('fast');
+				$("#smenu_bar").slideDown();
+			});
+
+			// 메뉴에서 마우스가 빠져나가면 메뉴를 닫는다
+			$(".nav").mouseleave(function(){
+				$('#menu > li > ul').fadeOut('fast');
+				$('#smenu_bar').fadeOut('fast');
+			});
+			//메인비주얼 비엑스슬라이드
+			$('.visual').bxSlider({
+				auto: true,
+				autoControls: false,
+				pager: true,
+				pause : 5000,
+				speed : 800,
+			});
+			$(function(){
+			   $(".educationicon li a img").css("marginTop","30px");
+			   $(".educationicon li").hover(function(){
+				   $("a img",$(this)).stop().animate({
+					   marginTop:"10px"
+				   },300);
+			   },function(){
+				   $("a img",$(this)).stop().animate({
+					  marginTop:"30px"
+				   },300);
+			   });
+			});
+			
+		});
+	</script>
+ </body>
+ </html>

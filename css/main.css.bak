@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+body{background: url( '../image/lacoste/background_line.png' ) repeat-y ; font-family:'Titillium Web';}
+html, body{height:100%;}
+body,html{word-break: keep-all;}
+body > #section1 {padding-top:500px;}
+body > div {padding-top:150px;}
+article{width:100%;}
+.inner{width:1604px; margin:0 auto; position:relative; }
+.inner2{width:1122px;  }
+
+
+
+
+
+스크롤탑
+#topBtn {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  display: block;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+/**************************************LACOSTE WEB*****************************************/
+
+/*HEADER*/
+header{font-family:'Gmarket Sans'; position:fixed; overflow:hidden; width:100%; height:400px; z-index:9999; top:0;}
+
+
+
+.work{margin-left:60px;}
+.work > span{ width:1px; height:69px; display:block; background:#000;}
+
+.work_txt{margin-left:15px; margin-top:-24px; line-height:165%;}
+.work_txt p{font-size:24px; font-weight:700; color:#292e36;}
+.work_txt span{font-size:18px; color:#b2b3b3;}
+
+
+.menu{float:right; margin-right:47px; margin-top:-45px;}
+.menu a{display:inline-block;}
+.menu a span{background:#000; display:block; }
+
+#menu1{width:33px; height:2px;}
+#menu2{width:26px; height:2px; margin-top:8px; margin-left:7px; }
+#menu3{width:17px; height:2px; margin-top:8px;  margin-left:16px;}
+
+.shadow{
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav{margin-top:80px; padding-left:33px;}
+#nav_txt{overflow:hidden;}
+#nav_txt li {float:left; padding-right:58px; line-height:50px; }
+
+
+#nav_txt li a{font-size:33px; color:#5c5c5b; font-weight:700; }
+
+#nav_txt li a:hover,
+#nav_txt li a:active,
+#nav_txt li a:focus{color:#000; text-decoration:line-through;}
+
+
+
+
+/*visual*/
+
+.visual { overflow:hidden; }
+
+.tit_box{float:left; border-left:18px solid #00542c;}
+.tit_box p{font-size:50px; padding-bottom:10px;}
+.tit_box p strong{font-size:60px; font-weight:600;}
+.tit_box p,
+.tit_box img{padding-left:20px;}
+.tit_box img{padding-bottom:10px; padding-top:10px;}
+
+
+button{margin-left:20px; font-size:20px; background:#e7e7e5; border:2px solid #656564; color:#656564;  border-radius:5px; font-weight:700;}
+button.active,
+button:hover{color:#00542c; border:2px solid #00542c;}
+
+#laco_button{margin-left:0; margin-top:20px;}
+
+.main_mockup{float:right;  }
+
+.main_mockup.laco_web_vis{background:url('../image/lacoste/vis.jpg') no-repeat; height:850px;}
+
+#lacoste_pc,
+#lacoste_phone{padding-top:240px;}
+
+#lacoste_pc{padding-left:70px;}
+#lacoste_phone{margin-left:-150px;}
+
+
+
+/*section1*/
+.section1{overflow:hidden;}
+.main_page{float:right;}
+.main_page p{font-size:50px; padding-bottom:48px; padding-top:48px;}
+
+.sub_page{float:right; margin-top:48px;}
+.sub_page p{font-size:50px;}
+.sub_page span{font-size:40px; padding:48px 0 48px 0; display:block;}
+
+
+
+/***********************************************LOTTE RESPONSIVE******************/
+.tit_box.lotte{float:left; border-left:18px solid #da291c;}
+.main_mockup.lotte_mockup{background:url('../image/lotte/main_bg.jpg') no-repeat; height:754px; position:relative !important; }
+
+.main_mockup.lotte_mockup span{position:absolute; top:45%; left:20%; display:block; width:99px; height:99px; border-radius:50px; background:#fff; z-index:9999999;}
+.main_mockup.lotte_mockup span img{padding:15px;}
+
+
+#lotte_respon{ padding-top:208px}
+
+.lotte_sub_mockup{margin-top:50px;}
+.lotte_sub_mockup li{padding:0 0 0 90px;}
+
+#lotte_button{margin-top:5px;}
+#lotte_button.active,
+#lotte_button:hover,
+#lotte_button2.active,
+#lotte_button2:hover{color:#da291c; border:2px solid #da291c;}
+
+#lotte_button2{margin-top:20px; margin-left:90px;}
+
+
+/********************************************LACOSTE MOBILE***********************/
+
+.main_mockup.laco_mobile{ background:url('../image/lacoste/laco_mobilemain_mockup.jpg') no-repeat; height:1080px;}
+
+
+.laco_mosub{width:1122px; height:3550px; background:#043c21;}
+
+.laco_mosub .laco_mo_sub {overflow:hidden;}
+.laco_mosub .laco_mo_sub li{float:left;padding-left:30px;}
+
+
+.phone_mockup li{float:left;}
+
+
+/****************************************Banila co Promotion design********************/
+.tit_box.banilaco{border-left:18px solid #fca2ca;}
+
+.main_mockup.banilaco_vis{width:1122px; height:887px; background:#8ed6c6;}
+
+#banila_button.active,
+#banila_button:hover,
+#banila_button2.active,
+#banila_button2:hover{color:#fca2ca; border:2px solid #fca2ca;}
+
+#banila_button2{margin:20px 0 0 0;}
+
+
+
+
+/**************************************************COOK&BAKER WEB DESIGN********************/
+
+.tit_box.cookbaker{border-left:18px solid #00a8ee;}
+
+.tit_box.cookbaker p strong{font-size:55px;}
+
+.main_mockup.cookandbaker_vis{background:url('../image/cookandbaker/cookandbaker_bg.png') no-repeat ; height:880px; width:880px; padding-right:100px;}
+.main_mockup.cookandbaker_vis img{padding-top:175px; padding-left:75px;}
+
+#cook_button.active,
+#cook_button:hover,
+#cook_button2.active,
+#cook_button2:hover{color:#00a8ee; border:2px solid #00a8ee;}
+
+#cook_button2{margin:20px 0 0 0;}
+
+
+
+
+
+/********************************************Bokgwon App design**************************/
+.tit_box.bokgwon{border-left:18px solid #013668;}
+
+
+
+.main_page.bok_gwon ul{overflow:hidden;}
+.main_page.bok_gwon ul li{float:left;}
+
+.main_page.bok_gwon ul li:last-child{margin-top:-500px;}
+
+#bok_button.active,
+#bok_button:hover,
+#bok_button2.active,
+#bok_button2:hover{color:#013668; border:2px solid #013668;}
+
+#bok_button2{margin:0px 0 0 0;}
+
+
+
+
+/*************************************************SCU WEB DESIGN***********************/
+.tit_box.scu{border-left:18px solid #00ac5c;}
+
+.main_mockup.scu_vis{background:#1dbb90; width:1122px; height:840px;}
+
+.main_mockup.scu_vis img{margin-left:200px; margin-top:150px;}
+
+
+.scu_sub_mockup{background:#f8c137; width:1122px; height:750px;}
+.scu_sub_mockup img{margin-left:200px; margin-top:150px;}
+
+#scu_button.active,
+#scu_button:hover,
+#scu_button2.active,
+#scu_button2:hover{color:#00ac5c; border:2px solid #00ac5c;}
+
+#scu_button2{margin:20px 0 0 0;}
+
+
+
+
+/****************************************SCU mobile design******************/
+
+.scu_mobile_mockup{overflow:hidden; margin-right:-100px; }
+.scu_mobile_mockup li{float:left;}
+.scu_mobile_mockup li:nth-child(1){margin-right:-80px; margin-top:50px;}
+
+.scu_mobile_mockup li:nth-child(3){margin-left:-80px; margin-top:50px;}
+
+.scu_mobile_bg{margin-top:250px; background:url('../image/scu/mobile_bg.jpg') no-repeat ; height:2909px;}
+
+.scu_mobile_bg p {color:#fff;}
+.scu_mobile_bg img{margin-left:275px; }
+
+
+/********************************************Humenia*************************/
+.tit_box.humenia{border-left:18px solid #90c31f;}
+
+#hu_button.active,
+#hu_button:hover,
+#hu_button2.active,
+#hu_button2:hover{color:#90c31f; border:2px solid #90c31f;}
+
+#hu_button2{margin:20px auto 40px;}
