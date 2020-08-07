@@ -55,6 +55,9 @@ header{font-family:'Gmarket Sans'; position:fixed; overflow:hidden; width:100%; 
 #nav_txt li a:active,
 #nav_txt li a:focus{color:#000; text-decoration:line-through;}
 
+
+
+/*****SCROLL TOP****/
 #topBtn {
   position: fixed;
   right: 2%;
@@ -233,7 +236,7 @@ button:hover{color:#00542c; border:2px solid #00542c;}
 
 .scu_mobile_mockup li:nth-child(3){margin-left:-80px; margin-top:50px;}
 
-.scu_mobile_bg{margin-top:250px; background:url('../image/SCU/mobile_bg.jpg') no-repeat ; height:2909px;}
+.scu_mobile_bg{margin-top:250px; background:url('image/SCU/mobile_bg.jpg') no-repeat ; height:2909px;}
 
 .scu_mobile_bg p {color:#fff;}
 .scu_mobile_bg img{margin-left:275px; }

@@ -55,6 +55,9 @@ header{font-family:'Gmarket Sans'; position:fixed; overflow:hidden; width:100%; 
 #nav_txt li a:active,
 #nav_txt li a:focus{color:#000; text-decoration:line-through;}
 
+
+
+/*****SCROLL TOP****/
 #topBtn {
   position: fixed;
   right: 2%;
@@ -68,6 +71,8 @@ header{font-family:'Gmarket Sans'; position:fixed; overflow:hidden; width:100%; 
   font-size: 15px;
   text-align: center;
   border-radius: 5px;
+
+  Z-INDEX:999999999999999;
 }
 
 
