@@ -401,27 +401,9 @@
 
 	<script>
 	$(document).ready(function(){ 
-		//NAV 스크롤 했을때 변화
-		var target=scrollTop;
-		target.offsetParent().scrollTop(targer.offset().top-fudgeValue);
-		if(scroll>300){ 
-		  $("header").css("background","#fefefe").css("opacity","0.8").css("height","50px");
-		  $(".work").css("display","none"); 
-		  $(".nav").css("margin-top","0px");
-		  $("#nav_txt li").css("padding-right","10px");
-		  $("#nav_txt li a").css("color","#5c5c5b").css("font-size","15px");
-		} 
-		else{ 
-		  $("header").css("opacity","1").css("background","").css("height","");
-		  $(".work").css("display","block"); 
-		  $(".nav").css("margin-top","");
-		  $("#nav_txt li").css("padding-right","");
-		  $("#nav_txt li a").css("color","").css("font-size","");
-
-		} 
-	    });
-		/*$(window).scroll(function(){ 
-			var scroll = $(window).scrollTop(); 
+		//NAV 스크롤 했을때 변화 
+		$(window).scroll(function(){ 
+			var scroll = $(window).scroll(); 
 			if(scroll>300){ 
 			  $("header").css("background","#fefefe").css("opacity","0.8").css("height","50px");
 			  $(".work").css("display","none"); 
@@ -437,7 +419,7 @@
 			  $("#nav_txt li a").css("color","").css("font-size","");
 
 			} 
-	    }) ;*/
+	    }) ;
 		// Header 스크롤했을때 변화
 	    var header = $('header');
 

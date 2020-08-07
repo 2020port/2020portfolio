@@ -403,7 +403,7 @@
 	$(document).ready(function(){ 
 		//NAV 스크롤 했을때 변화 
 		$(window).scroll(function(){ 
-			var scroll = $(window).scroll(); 
+			var scroll = $(window).scrollTop(); 
 			if(scroll>300){ 
 			  $("header").css("background","#fefefe").css("opacity","0.8").css("height","50px");
 			  $(".work").css("display","none"); 
