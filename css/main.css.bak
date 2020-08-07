@@ -13,21 +13,6 @@ article{width:100%;}
 
 
 
-스크롤탑
-#topBtn {
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  display: block;
-  background: #000;
-  color: #fff;
-  font-size: 15px;
-  text-align: center;
-  border-radius: 5px;
-}
 
 
 /**************************************LACOSTE WEB*****************************************/
@@ -70,6 +55,20 @@ header{font-family:'Gmarket Sans'; position:fixed; overflow:hidden; width:100%; 
 #nav_txt li a:active,
 #nav_txt li a:focus{color:#000; text-decoration:line-through;}
 
+#topBtn {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  display: block;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
 
 
 
