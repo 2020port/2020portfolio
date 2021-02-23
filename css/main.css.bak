@@ -236,7 +236,7 @@ button:hover{color:#00542c; border:2px solid #00542c;}
 
 .scu_mobile_mockup li:nth-child(3){margin-left:-80px; margin-top:50px;}
 
-.scu_mobile_bg{margin-top:250px; background:url('image/SCU/mobile_bg.jpg') no-repeat ; height:2909px;}
+.scu_mobile_bg{margin-top:250px; background:url('../image/SCU/mobile_bg.jpg') no-repeat ; height:2909px;}
 
 .scu_mobile_bg p {color:#fff;}
 .scu_mobile_bg img{margin-left:275px; }
@@ -251,3 +251,11 @@ button:hover{color:#00542c; border:2px solid #00542c;}
 #hu_button2:hover{color:#90c31f; border:2px solid #90c31f;}
 
 #hu_button2{margin:20px auto 40px;}
+
+
+
+/*************************************englander*******************/
+
+.tit_box.englander{border-left:18px solid #022347;}
+
+.main_page.inner2.englander_br{padding-top:50px;}
