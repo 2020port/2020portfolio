@@ -3,7 +3,7 @@
 body{background: url( '../image/lacoste/background_line.png' ) repeat-y ; font-family:'Titillium Web';}
 html, body{height:100%;}
 body,html{word-break: keep-all;}
-body > #section1 {padding-top:500px;}
+body > #section10 {padding-top:500px;}
 body > div {padding-top:150px;}
 article{width:100%;}
 .inner{width:1604px; margin:0 auto; position:relative; }
